@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(246, 249, 252);
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: rgb(46, 139, 87);
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.footer {
+  background-color: rgb(50, 50, 93);
+  color: white;
+}
+
+.footer-row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-email {
+  border: 2px solid #d39e00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyrights {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.error-block {
+  color: red;
+}

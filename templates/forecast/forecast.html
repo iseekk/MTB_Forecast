@@ -1,0 +1,14 @@
+{% extends "forecast/base.html" %}
+{% load static %}
+
+{% block body_block %}
+
+  <div class="container">
+    <form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Wybierz">
+    </form>
+  </div>
+
+{% endblock %}
